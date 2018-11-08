@@ -52,8 +52,8 @@ print(row_add())
 
 def list_check(new_list):
     highest = (max(new_list))
-    list.sort = (highest[2])
-    return highest
+    list.sort(highest)
+    return highest[2]
 
 
 print(list_check(new_list))
