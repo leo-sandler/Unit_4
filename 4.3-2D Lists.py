@@ -33,12 +33,27 @@ def column_add():
     for y in new_list:
         sum1 += y[0]
     return sum1
+
+
 print(column_add())
+
 
 def row_add():
     sum1 = 0
-    for x in a1:
-        for n in x:
-            sum1 += [0]x
+    for x in new_list[0]:  # Row then column
+        sum1 += x
     return sum1
-print(row_add()
+
+
+print(row_add())
+
+# Task 5: Function that has 1 parameter(a 2D list) and returns the highest value in that list
+
+
+def list_check(new_list):
+    highest = (max(new_list))
+    list.sort = (highest[2])
+    return highest
+
+
+print(list_check(new_list))
