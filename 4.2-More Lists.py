@@ -1,5 +1,6 @@
-
+import random
 print("Lesson 4.2 More Lists:")
+numbers1 = ["2", "1", "4", "3"]
 del numbers1[0]  # This deletes the element at index 0
 print(numbers1)
 numbers1.insert(0, "new")  # This adds the new value into the index spot 0
@@ -39,14 +40,14 @@ h = "Hello"
 print(h[4], h[3], h[2], h[1], h[0])
 # Use the sentence, You're a wizard Harry and change all e's to 3's, o's to 0's and h's to 4's.
 wizard = "You're a wizard Harry"
-if wizard == "e":
-    del wizard("e")
-    wizard+"3"
-elif wizard == "o":
-    del wizard("o")
-    wizard.append(0)
-    elif wizard == "H":
-        wizard.append ("H")
-        wizard.append(4)
-print(wizard)
+#if wizard == "e":
+ #   del wizard("e")
+  #  wizard+"3"
+#elif wizard == "o":
+ #   del wizard("o")
+  #  wizard.append(0)
+   # elif wizard == "H":
+    #    wizard.append ("H")
+     #   wizard.append(4)
+#  print(wizard)
 # For loop loops through the string, adding onto the end of a new string. Possibly string find and replace
